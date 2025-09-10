@@ -19,22 +19,20 @@ misc. hardware
 time
 
 
-
-What is it?
-
-An Auto Loader (easy load) and a filament helper through the bowden tube (easy flow), which mimics your extruder speeds.
-
-
+> [!important]
+> What is it?
+>
+>An Auto Loader (easy load) for single filament spools and a filament helper through the bowden tube (easy flow), which mimics your extruder speeds.
 
 
-First thing is first, you need to add this line to your printer.cfg under your "includes" section:
+> [!warning]
+>First thing is first, you need to add this line to your printer.cfg under your "includes" section:
+>
+>```[include config/elef/elef_master.cfg]```
+>then add the file above in your printer.cfg area in mainsail / fluidd
 
-```[include config/elef/elef_master.cfg]```
 
-then add the file above in your printer.cfg area in mainsail / fluidd
-
-
-how to use?
+##how to use?
 
 ```ELEF_AUTOLOAD SPEED=300 CHUNK=25 LIMIT=2000 FOLLOW=1```
 
@@ -67,8 +65,6 @@ how to use?
 > [!caution]
 > Emphasizes that extra care should be taken.
 
-> [!info]
-> Generic info block (similar to note).
 
 
 
