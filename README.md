@@ -24,3 +24,12 @@ What is it?
 
 An Auto Loader (easy load) and a filament helper through the bowden tube (easy flow), which mimics your extruder speeds.
 
+
+
+
+First thing is first, you need to add this line to your printer.cfg under your "includes" section:
+
+```[include config/elef/elef_master.cfg]```
+
+then add the file above in your printer.cfg area in mainsail / fluidd
+
