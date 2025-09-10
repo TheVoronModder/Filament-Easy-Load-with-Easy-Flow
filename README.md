@@ -70,33 +70,5 @@ how to use?
 > [!info]
 > Generic info block (similar to note).
 
-> [!abstract]
-> Summary or overview.
 
-> [!summary]
-> Alternative to abstract.
-
-> [!tldr]
-> Another alternative to summary.
-
-> [!faq]
-> For frequently asked questions.
-
-> [!help]
-> For assistance or guidance.
-
-> [!check]
-> For task completion, confirmations, or success states.
-
-> [!success]
-> Positive outcome messages.
-
-> [!done]
-> Another success/completion style.
-
-> [!quote]
-> For quotations or external references.
-
-> [!example]
-> For code examples, cases, or scenarios.
 
