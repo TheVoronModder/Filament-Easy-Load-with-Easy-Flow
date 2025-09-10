@@ -32,7 +32,7 @@ time
 >then add the file above in your printer.cfg area in mainsail / fluidd
 
 
-##how to use?
+## how to use?
 
 ```ELEF_AUTOLOAD SPEED=300 CHUNK=25 LIMIT=2000 FOLLOW=1```
 
