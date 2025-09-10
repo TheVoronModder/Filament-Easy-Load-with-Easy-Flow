@@ -20,7 +20,7 @@
 
 <br>
 
-> [!important]
+> [!note]
 > What is it?
 >
 >An Auto Loader (easy load) for single filament spools and a filament helper through the bowden tube (easy flow), which mimics your extruder speeds.
