@@ -33,3 +33,7 @@ First thing is first, you need to add this line to your printer.cfg under your "
 
 then add the file above in your printer.cfg area in mainsail / fluidd
 
+
+how to use?
+
+```ELEF_AUTOLOAD SPEED=300 CHUNK=25 LIMIT=2000 FOLLOW=1```
