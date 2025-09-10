@@ -41,3 +41,12 @@ how to use?
 >[!note]
 >
 >the ELEF feeder “listens” to the main extruder’s E moves (in mm of filament). As long as each device’s rotation_distance / gear_ratio is set correctly in its own config section, Klipper sends the same E-mm to both—so the ELEF feeder will match whatever toolhead you use (LGX, Orbiter2, etc.) without any hard-coded speeds. The only fixed speed is during the fast prefeed before the tip switch is hit; once arrival is detected and follow mode is on, it self-matches automatically.
+
+
+In elef_master.cfg, make sure:
+
+[extruder] (your toolhead: LGX, Orbiter2, etc.) has its correct rotation_distance (and gear_ratio if you use it).
+
+[extruder_stepper elef_feeder] has BMG-accurate rotation_distance / gear_ratio (since ELEF is always BMG on your build).
+
+Tip: If you ever want the ELEF to “assist less” (e.g., avoid overstuffing during startup on a very grippy toolhead), you can slightly increase the ELEF feeder’s rotation_distance by a couple percent; that makes it push a hair less per E-mm while still staying synced. To revert, set it back to the calibrated value.
